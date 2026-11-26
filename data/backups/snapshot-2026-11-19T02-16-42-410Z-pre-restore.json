@@ -1,0 +1,262 @@
+{
+  "exportedAt": "2026-11-19T02:16:42.412Z",
+  "service": "e-surat-smpn2-girimulyo",
+  "storageStatus": {
+    "journalMode": "WAL",
+    "synchronousMode": "FULL",
+    "integrityStatus": "ok",
+    "dbSizeBytes": 147456,
+    "walSizeBytes": 0,
+    "lastCheckpointAt": "2026-11-19T02:16:42.410Z",
+    "lastAutoBackupAt": "2026-11-19T02:16:32.262Z",
+    "autoBackupCount": 10,
+    "incomingCount": 0,
+    "outgoingCount": 0,
+    "dispositionCount": 0,
+    "userCount": 3,
+    "unreadSecurityAlerts": 0
+  },
+  "data": {
+    "incoming": [],
+    "outgoing": [],
+    "classifications": [
+      {
+        "code": "005",
+        "name": "Undangan Dinas",
+        "description": "Undangan rapat, koordinasi, atau upacara resmi"
+      },
+      {
+        "code": "421.3",
+        "name": "Pendidikan Menengah Pertama",
+        "description": "Urusan pembelajaran, ujian, kelulusan, dan kesiswaan SMP"
+      },
+      {
+        "code": "422",
+        "name": "Administrasi Sekolah",
+        "description": "Tata laksana sekolah, kalender pendidikan, PPDB/SPMB"
+      },
+      {
+        "code": "423",
+        "name": "Kurikulum & Asesmen",
+        "description": "Perangkat ajar, ANBK, TKA, dan supervisi akademik"
+      },
+      {
+        "code": "800",
+        "name": "Kepegawaian",
+        "description": "SK pembagian tugas, cuti, mutasi, dan pembinaan ASN/PPPK"
+      },
+      {
+        "code": "900",
+        "name": "Keuangan & BOS",
+        "description": "RKAS, pelaporan dana BOS, dan pertanggungjawaban keuangan"
+      }
+    ],
+    "regulations": [],
+    "settings": {
+      "schoolName": "SMP Negeri 2 Girimulyo",
+      "parentAgency": "Dinas Pendidikan Pemuda dan Olahraga",
+      "districtGov": "Pemerintah Kabupaten Kulon Progo",
+      "address": "Jetis, Pendoworejo, Girimulyo, Kulon Progo, DIY",
+      "postalCode": "55674",
+      "phone": "(0274) 7496760",
+      "email": "smpnegeri2girimulyo@gmail.com",
+      "website": "smpn2girimulyo.sch.id",
+      "npsn": "20402766",
+      "schoolCode": "SMPN2-GR",
+      "principalName": "Yuli Ruwiati, S.Pd.",
+      "principalNip": "197807062005012016",
+      "tuHeadName": "Suradi",
+      "tuHeadNip": "197302262007011015",
+      "outgoingFormatPattern": "{kode}/{urut}/{sekolah}/{bulan}/{tahun}",
+      "logoUrl": "/uploads/1795054368491_1001364301.jpg",
+      "kopLeftLogoUrl": "/uploads/1795054391482_1001363942.jpg",
+      "kopRightLogoUrl": "",
+      "kopJavaneseScriptUrl": "",
+      "menuConfigs": {
+        "dashboard": {
+          "label": "Dasbor",
+          "title": "Dasbor Persuratan",
+          "description": "Pantau antrean surat masuk prioritas, progres disposisi unit sekolah, dan penerbitan nomor surat keluar."
+        },
+        "incoming": {
+          "label": "Surat Masuk",
+          "title": "Buku Agenda Surat Masuk",
+          "description": "Kelola pencatatan surat masuk, pencarian cepat, lembar disposisi, serta cetak buku agenda resmi."
+        },
+        "outgoing": {
+          "label": "Surat Keluar",
+          "title": "Buku Agenda Surat Keluar",
+          "description": "Terbitkan nomor surat keluar otomatis, susun naskah surat dinas, dan ekspor agenda ke PDF atau CSV."
+        },
+        "dispositions": {
+          "label": "Disposisi",
+          "title": "Disposisi & Tindak Lanjut",
+          "description": "Pantau dan perbarui tindak lanjut instruksi disposisi pimpinan oleh masing-masing unit kerja sekolah."
+        },
+        "regulations": {
+          "label": "Referensi Peraturan",
+          "title": "Referensi Peraturan Persuratan",
+          "description": "Simpan dan baca dokumen PDF peraturan perundang-undangan, tata naskah dinas, dan pedoman resmi persuratan."
+        },
+        "settings": {
+          "label": "Pengaturan",
+          "title": "Pengaturan & Monitoring",
+          "description": "Kelola profil dan logo sekolah, tema aplikasi, kode klasifikasi, keterangan menu, akun pengguna, serta log aktivitas."
+        }
+      },
+      "loginHeadline": "Sistem Informasi Manajemen Persuratan Sekolah",
+      "loginDescription": "Portal administrasi tata usaha untuk pencatatan surat masuk, penomoran otomatis surat keluar, lembar disposisi pimpinan, serta pengarsipan agenda resmi.",
+      "loginFormTitle": "Masuk ke Portal E-Surat",
+      "loginFormSubtitle": "Gunakan akun staf Tata Usaha, Kepala Sekolah, atau unit penerima disposisi."
+    },
+    "counters": [
+      {
+        "year": 2026,
+        "incomingLastSeq": 4,
+        "outgoingLastSeq": 2
+      }
+    ],
+    "activityLogs": [
+      {
+        "id": "act_1795054576531_qmrks",
+        "actorUserId": "usr_admin_tu",
+        "actorUsername": "admin",
+        "actorDisplayName": "Eko Ryan Hidayat",
+        "actorRole": "admin",
+        "action": "DELETE",
+        "entityType": "outgoing",
+        "entityId": "out_seed_001",
+        "referenceNumber": "005/001/SMPN2-GR/XI/2026",
+        "subject": "Undangan Sosialisasi Persiapan Asesmen Akhir Semester & Pemetaan Lanjut SMA/SMK",
+        "details": "Menghapus arsip surat keluar 005/001/SMPN2-GR/XI/2026",
+        "createdAt": "2026-11-19T02:16:16.531Z"
+      },
+      {
+        "id": "act_1795054572717_mqdvj",
+        "actorUserId": "usr_admin_tu",
+        "actorUsername": "admin",
+        "actorDisplayName": "Eko Ryan Hidayat",
+        "actorRole": "admin",
+        "action": "DELETE",
+        "entityType": "outgoing",
+        "entityId": "out_seed_002",
+        "referenceNumber": "800/002/SMPN2-GR/XI/2026",
+        "subject": "Permohonan Surat Tugas Guru Pendamping Lomba Olimpiade Sains Nasional Tingkat Kabupaten",
+        "details": "Menghapus arsip surat keluar 800/002/SMPN2-GR/XI/2026",
+        "createdAt": "2026-11-19T02:16:12.717Z"
+      },
+      {
+        "id": "act_1795054562704_nerd6",
+        "actorUserId": "usr_admin_tu",
+        "actorUsername": "admin",
+        "actorDisplayName": "Eko Ryan Hidayat",
+        "actorRole": "admin",
+        "action": "DELETE",
+        "entityType": "incoming",
+        "entityId": "in_seed_003",
+        "referenceNumber": "AGD-2026-003",
+        "subject": "Jadwal Pelaksanaan Skrining Kesehatan Berkala & Pemberian Tablet Tambah Darah Siswa",
+        "details": "Menghapus arsip surat masuk AGD-2026-003 (440/089/PKM-GR1/XI/2026)",
+        "createdAt": "2026-11-19T02:16:02.704Z"
+      },
+      {
+        "id": "act_1795054558443_dsbp1",
+        "actorUserId": "usr_admin_tu",
+        "actorUsername": "admin",
+        "actorDisplayName": "Eko Ryan Hidayat",
+        "actorRole": "admin",
+        "action": "DELETE",
+        "entityType": "incoming",
+        "entityId": "in_seed_002",
+        "referenceNumber": "AGD-2026-002",
+        "subject": "Pemberitahuan Batas Akhir Pelaporan Realisasi Dana BOS Tahap II Tahun 2026",
+        "details": "Menghapus arsip surat masuk AGD-2026-002 (900/412/BPKAD-KP/XI/2026)",
+        "createdAt": "2026-11-19T02:15:58.443Z"
+      },
+      {
+        "id": "act_1795054554424_pqr2b",
+        "actorUserId": "usr_admin_tu",
+        "actorUsername": "admin",
+        "actorDisplayName": "Eko Ryan Hidayat",
+        "actorRole": "admin",
+        "action": "DELETE",
+        "entityType": "incoming",
+        "entityId": "in_seed_001",
+        "referenceNumber": "AGD-2026-001",
+        "subject": "Undangan Rapat Koordinasi Persiapan Asesmen Akhir Semester Ganjil Tahun Ajaran 2026/2027",
+        "details": "Menghapus arsip surat masuk AGD-2026-001 (421.3/1184/Disdikpora/2026)",
+        "createdAt": "2026-11-19T02:15:54.424Z"
+      },
+      {
+        "id": "act_seed_005",
+        "actorUserId": "usr_admin_tu",
+        "actorUsername": "admin",
+        "actorDisplayName": "Eko Ryan Hidayat",
+        "actorRole": "admin",
+        "action": "CREATE",
+        "entityType": "outgoing",
+        "entityId": "out_seed_002",
+        "referenceNumber": "800/002/SMPN2-GR/XI/2026",
+        "subject": "Permohonan Surat Tugas Guru Pendamping Lomba Olimpiade Sains Nasional Tingkat Kabupaten",
+        "details": "Membuat surat keluar baru kepada Kepala Dinas Pendidikan Pemuda dan Olahraga Kab. Kulon Progo",
+        "createdAt": "2026-11-19T00:29:43.055Z"
+      },
+      {
+        "id": "act_seed_004",
+        "actorUserId": "usr_admin_tu",
+        "actorUsername": "admin",
+        "actorDisplayName": "Eko Ryan Hidayat",
+        "actorRole": "admin",
+        "action": "CREATE",
+        "entityType": "outgoing",
+        "entityId": "out_seed_001",
+        "referenceNumber": "005/001/SMPN2-GR/XI/2026",
+        "subject": "Undangan Sosialisasi Persiapan Asesmen Akhir Semester & Pemetaan Lanjut SMA/SMK",
+        "details": "Membuat surat keluar baru kepada Orang Tua / Wali Siswa Kelas IX SMP Negeri 2 Girimulyo",
+        "createdAt": "2026-11-19T00:29:43.055Z"
+      },
+      {
+        "id": "act_seed_003",
+        "actorUserId": "usr_admin_tu",
+        "actorUsername": "admin",
+        "actorDisplayName": "Eko Ryan Hidayat",
+        "actorRole": "admin",
+        "action": "CREATE",
+        "entityType": "incoming",
+        "entityId": "in_seed_003",
+        "referenceNumber": "AGD-2026-003",
+        "subject": "Jadwal Pelaksanaan Skrining Kesehatan Berkala & Pemberian Tablet Tambah Darah Siswa",
+        "details": "Mencatat surat masuk baru dari UPTD Puskesmas Girimulyo I",
+        "createdAt": "2026-11-19T00:29:43.055Z"
+      },
+      {
+        "id": "act_seed_002",
+        "actorUserId": "usr_admin_tu",
+        "actorUsername": "admin",
+        "actorDisplayName": "Eko Ryan Hidayat",
+        "actorRole": "admin",
+        "action": "CREATE",
+        "entityType": "incoming",
+        "entityId": "in_seed_002",
+        "referenceNumber": "AGD-2026-002",
+        "subject": "Pemberitahuan Batas Akhir Pelaporan Realisasi Dana BOS Tahap II Tahun 2026",
+        "details": "Mencatat surat masuk baru dari Tim Manajemen BOS Kabupaten Kulon Progo",
+        "createdAt": "2026-11-19T00:29:43.055Z"
+      },
+      {
+        "id": "act_seed_001",
+        "actorUserId": "usr_admin_tu",
+        "actorUsername": "admin",
+        "actorDisplayName": "Eko Ryan Hidayat",
+        "actorRole": "admin",
+        "action": "CREATE",
+        "entityType": "incoming",
+        "entityId": "in_seed_001",
+        "referenceNumber": "AGD-2026-001",
+        "subject": "Undangan Rapat Koordinasi Persiapan Asesmen Akhir Semester Ganjil Tahun Ajaran 2026/2027",
+        "details": "Mencatat surat masuk baru dari Dinas Pendidikan Pemuda dan Olahraga Kab. Kulon Progo",
+        "createdAt": "2026-11-19T00:29:43.055Z"
+      }
+    ]
+  }
+}
